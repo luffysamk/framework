@@ -2,10 +2,10 @@
 // The Accord.NET Framework
 // http://accord-framework.net
 //
-// Copyright © AForge.NET, 2007-2011
+// Copyright ?AForge.NET, 2007-2011
 // contacts@aforgenet.com
 //
-// Copyright © César Souza, 2009-2017
+// Copyright ?César Souza, 2009-2017
 // cesarsouza at gmail.com
 //
 //    This library is free software; you can redistribute it and/or
@@ -25,9 +25,7 @@
 
 namespace Accord
 {
-    using Accord;
     using System;
-    using Accord.Compat;
 
     /// <summary>
     ///   Represents a double range with minimum and maximum values,

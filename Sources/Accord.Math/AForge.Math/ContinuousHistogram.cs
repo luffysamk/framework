@@ -2,15 +2,13 @@
 // AForge.NET framework
 // http://www.aforgenet.com/framework/
 //
-// Copyright © AForge.NET, 2007-2011
+// Copyright ?AForge.NET, 2007-2011
 // contacts@aforgenet.com
 //
 
 namespace Accord.Math
 {
     using System;
-    using Accord;
-    using Accord.Compat;
 
     /// <summary>
     /// Histogram for continuous random values.
@@ -68,7 +66,7 @@ namespace Accord.Math
         /// Range of random values.
         /// </summary>
         /// 
-        public Range Range
+        public Accord.Range Range
         {
             get { return range; }
         }
@@ -192,7 +190,7 @@ namespace Accord.Math
         /// description for more information).
         /// </remarks>
         /// 
-        public ContinuousHistogram(int[] values, Range range)
+        public ContinuousHistogram(int[] values, Accord.Range range)
         {
             this.values = values;
             this.range = range;
@@ -245,7 +243,7 @@ namespace Accord.Math
                     break;
             }
             // return range between left and right boundaries
-            return new Range(
+            return new Accord.Range(
                 ((float)min / nM1) * range.Length + range.Min,
                 ((float)max / nM1) * range.Length + range.Min);
         }
